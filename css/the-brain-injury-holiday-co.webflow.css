@@ -11,7 +11,7 @@
 }
 
 body {
-  overflow: hidden;
+  overflow: visible;
   font-family: Muli;
   color: #333;
   font-size: 14px;
@@ -949,7 +949,7 @@ em {
   border-radius: 2px;
   background-color: #fa990e;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .nav_link_text.book.footer-cta {
@@ -962,7 +962,7 @@ em {
 
 .nav_link_text.text-minor {
   color: #012701;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .nav_link {
@@ -1012,8 +1012,8 @@ em {
 
 .faq-q-text {
   margin-top: 0px;
+  font-family: Nunito, sans-serif;
   color: #221f1f;
-  font: nunito;
   font-size: 20px;
   line-height: 1.5em;
   font-weight: 600;
@@ -1061,8 +1061,8 @@ em {
 .faq-answer-text {
   width: 100%;
   margin-bottom: 40px;
+  font-family: Nunito, sans-serif;
   color: #221f1f;
-  font: nunito;
   font-size: 16px;
   line-height: 25px;
   font-weight: 300;
