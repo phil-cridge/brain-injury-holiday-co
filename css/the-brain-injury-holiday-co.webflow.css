@@ -11,7 +11,7 @@
 }
 
 body {
-  overflow: visible;
+  overflow: hidden;
   font-family: Muli;
   color: #333;
   font-size: 14px;
@@ -1013,6 +1013,7 @@ em {
 .faq-q-text {
   margin-top: 0px;
   color: #221f1f;
+  font: nunito;
   font-size: 20px;
   line-height: 1.5em;
   font-weight: 600;
@@ -1061,6 +1062,7 @@ em {
   width: 100%;
   margin-bottom: 40px;
   color: #221f1f;
+  font: nunito;
   font-size: 16px;
   line-height: 25px;
   font-weight: 300;
