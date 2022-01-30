@@ -953,11 +953,18 @@ em {
 }
 
 .nav_link_text.book.footer-cta {
+  margin-top: 16px;
   margin-right: 0px;
 }
 
 .nav_link_text.footer-link {
+  overflow: visible;
   color: #012701;
+  font-weight: 600;
+  text-align: left;
+  white-space: normal;
+  -o-object-fit: fill;
+  object-fit: fill;
 }
 
 .nav_link_text.text-minor {
@@ -968,7 +975,7 @@ em {
 .nav_link {
   position: relative;
   margin-right: 8px;
-  margin-left: 8px;
+  margin-left: 0px;
   color: #012701;
   font-size: 16px;
   font-weight: 600;
@@ -987,6 +994,10 @@ em {
 
 .nav_link.footer_link:hover {
   text-decoration: none;
+}
+
+.nav_link.footer_link.email-contact {
+  margin-top: 12px;
 }
 
 .nav_link_hover_div {
@@ -1349,7 +1360,7 @@ em {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 30%;
+  width: 25%;
   margin-right: 0px;
   margin-bottom: 30px;
   padding-left: 0px;
@@ -1369,8 +1380,12 @@ em {
   color: #2f3033;
 }
 
+.footer_nav_column.contact-column {
+  width: 50%;
+}
+
 .logo_and_subscribe_wrap {
-  width: 350px;
+  width: 50%;
   margin-top: 11px;
   padding-right: 25px;
   padding-left: 25px;
@@ -1412,6 +1427,7 @@ em {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: visible;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 0px;
@@ -1421,10 +1437,10 @@ em {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -1515,10 +1531,15 @@ em {
   padding-right: 0%;
   padding-bottom: 18px;
   padding-left: 0%;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
@@ -3797,6 +3818,14 @@ em {
   .nav_link.mobile-button {
     margin-left: -14px;
     padding-left: 0px;
+  }
+
+  .faq-q-text {
+    font-weight: 500;
+  }
+
+  .faq-plus-wrap {
+    font-weight: 700;
   }
 
   .faq-answer-text {
