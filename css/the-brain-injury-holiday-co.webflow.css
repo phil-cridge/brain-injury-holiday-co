@@ -974,6 +974,7 @@ em {
 
 .nav_link {
   position: relative;
+  display: inline-block;
   margin-right: 8px;
   margin-left: 0px;
   color: #012701;
@@ -998,6 +999,15 @@ em {
 
 .nav_link.footer_link.email-contact {
   margin-top: 12px;
+}
+
+.nav_link.footer-cta {
+  max-width: 170px;
+  text-align: center;
+}
+
+.nav_link.nav-link-contact {
+  display: block;
 }
 
 .nav_link_hover_div {
@@ -1027,7 +1037,7 @@ em {
   color: #221f1f;
   font-size: 20px;
   line-height: 1.5em;
-  font-weight: 600;
+  font-weight: 500;
   text-align: left;
 }
 
@@ -2364,6 +2374,14 @@ em {
 .heading-10 {
   margin-top: 49px;
   text-align: center;
+}
+
+.bold-text {
+  font-weight: 600;
+}
+
+.bold-text-2 {
+  font-weight: 700;
 }
 
 @media screen and (min-width: 1440px) {
